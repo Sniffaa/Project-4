@@ -1,0 +1,125 @@
+/*#635985*/
+/*#443C68*/
+/*#393053*/
+/*#18122B*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #18122B;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Register Container */
+.tyxw {
+  width: 500px;
+  height: 500px;
+  background-color: #393053;
+  border-radius: 10px;
+}
+
+/* Register Text */
+.fqqb {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  font-family: "Montserrat";
+}
+
+/* Username Text */
+.dwal {
+  color: #ffffff;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Username Input */
+.fgbm {
+  background-color: #443C68;
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 15px;
+  color: #ffffff;
+  text-indent: 10px;
+}
+
+/* Password Text */
+.ugio {
+  color: #ffffff;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Password Input*/
+.nals {
+  background-color: #443C68;
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 15px;
+  color: #ffffff;
+  text-indent: 10px;
+}
+
+/* T&C Div */
+.cgqy {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px;
+}
+
+/* T&C Checkbox */
+.vuhx {
+  display: flex;
+  flex-shrink: 0;
+}
+
+/* T&C Text */
+.eaza {
+  color: #ffffff;
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+/* Register Button */
+.vcxh {
+  background-color: #635985;
+  border: none;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.jhav {
+  color: #ffffff;
+  font-family: "Montserrat";
+}

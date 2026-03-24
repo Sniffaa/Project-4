@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  background-color: #18122B;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Container */
+.erfe {
+    width: 500px;
+    height: 500px;
+    background-color: #393053;
+    border-radius: 10px;
+}
+
+/* Login Text */
+.ytow {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: "Montserrat";
+}
+
+/* Username Text */
+.dlef {
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* Username Input */
+.fybx {
+    background-color: #443C68;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5px;
+    color: #ffffff;
+    text-indent: 10px;
+}
+
+/* Password Text */
+.gfkp {
+  color: #ffffff;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+/* Password Input */
+.sgke {
+  background-color: #443C68;
+  border: none;
+  border-radius: 20px;
+  width: 350px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5px;
+  color: #ffffff;
+  text-indent: 10px;
+}
+
+/* Login Button */
+.dmuk {
+    background-color: #635985;
+    border: none;
+    width: 175px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+/* Forgot Password */
+.przj {
+    color: #ffffff;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+/* Register */
+.lxsc {
+    color: #ffffff;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
