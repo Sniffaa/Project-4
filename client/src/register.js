@@ -4,13 +4,13 @@ function register() {
   return (
     <div className='tyxw'>
       <h1 className='fqqb'>Register</h1>
-      <h2 className='dwal'>Username</h2>
+      <p className='dwal'>Username</p>
       <input className='fgbm'></input>
-      <h2 className='ugio'>Password</h2>
+      <p className='ugio'>Password</p>
       <input className='nals'></input>
       <div className='cgqy'>
         <input className='vuhx' type='checkbox'></input>
-        <h3 className='eaza'>By clicking here, I state that I have read and understood the terms and conditions.</h3>
+        <p className='eaza'>By clicking here, I state that I have read and understood the terms and conditions.</p>
       </div>
       <button className='vcxh'>Register</button>
       <a className='jhav' href='/login'>Already have an account? Log in</a>
