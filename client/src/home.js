@@ -24,35 +24,25 @@ function Home() {
       <div className='mhku'>
         <h1 className='gzob'>YapON</h1>
       </div>
-      <div class="main-layout">
+      <div class="bfyh">
         <div class="rnhi">
-          <h2 className='pmou'>Categories</h2>
-          <hr></hr>
-          <input className='luhn' placeholder="Search Categories . . . "></input>
+          <p className='pmou'>Browse</p>
+          <button className='hujp' href='#'>1st Discussions</button>
+          <button className='wkwm' href='#'>2nd Discussions</button>
+          <button className='jjvh' href='#'>3rd Discussions</button>
+          <button className='bobp' href='#'>4th Discussions</button>
+          <button className='khsc' href='#'>5th Discussions</button>
+          <button className='fqxw' href='#'>6th Discussions</button>
+          <button className='doza' href='#'>7th Discussions</button>
         </div>
-        
-        <div class="zuho">
-          <h2 className='pfyo'>Discussions</h2>
-          <hr></hr>
+        <div className='twmd'>
+          <p className='wkjg'>All Discussions</p>
+          <button className='wcrb'>+ Create Post</button>
         </div>
-          {/* 
-         <div class="right">
-          <h2 className='cfxd'>Statistics</h2>
-          <hr></hr>
-          <ul className='kyxa'>
-            <li className='bpug'>Posts</li>
-            <li className='tuhr'>Replies</li>
-            <li className='qvdw'>Likes</li>
-            <li className='ekno'>Reputation</li>
-            <li className='vtnk'>Views</li>
-          </ul>
-        </div> */}
       </div>
-
       <div className='byfd'>
         <p className='tcqu'>&copy; 2026 YapON. All rights reserved.</p>
       </div>
-
     </div>
   );
 }

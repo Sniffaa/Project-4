@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 body {
-  background-color: #212121;
+  background-color: #1e1e1e;
 }
 ::placeholder {
   font-family: "Montserrat";
@@ -52,6 +52,7 @@ body {
   justify-content: center;
   margin: auto;
   margin-top: 5px;
+  font-family: "Montserrat";
   color: #ffffff;
   text-indent: 15px;
 }
@@ -74,6 +75,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
+  font-family: "Montserrat";
   margin-top: 5px;
   color: #ffffff;
   text-indent: 15px;
@@ -126,47 +128,48 @@ body {
 
 /*LOG SITE DIV*/
 .ybjp {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*LOG CONTAINER*/
 .erfe {
-    width: 500px;
-    height: 500px;
-    background-color: #303030;
-    border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  background-color: #303030;
+  border-radius: 20px;
 }
 /*LOG FORM TITLE*/
 .ytow {
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    font-family: "Montserrat";
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-family: "Montserrat";
 }
 /*LOG FORM USERNAME TITLE*/
 .dlef {
-    color: #ffffff;
-    font-family: "Montserrat";
-    text-align: center;
-    font-size: 20px;
-    margin-top: 15px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
 }
 /*LOG FORM USERNAME INPUT*/
 .fybx {
-    background-color: #212121;
-    border: none;
-    border-radius: 20px;
-    width: 350px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 5px;
-    color: #ffffff;
-    text-indent: 10px;
+  background-color: #212121;
+  border: none;
+  border-radius: 20px;
+  width: 350px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  text-indent: 10px;
 }
 /*LOG FORM PASSWORD TITLE*/
 .gfkp {
@@ -188,105 +191,210 @@ body {
   justify-content: center;
   margin: auto;
   margin-top: 5px;
+  font-family: "Montserrat";
   color: #ffffff;
   text-indent: 10px;
 }
 /*LOG BUTTON*/
 .dmuk {
-    background-color: #212121;
-    border: none;
-    width: 175px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 45px;
-    border-radius: 20px;
-    color: #ffffff;
+  background-color: #212121;
+  border: none;
+  width: 175px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  margin: auto;
+  margin-top: 45px;
+  border-radius: 20px;
+  color: #ffffff;
 }
 /*LOG FORGOT PASSWORD*/
 .przj {
-    color: #ffffff;
-    font-family: "Montserrat";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 45px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
 }
 /*LOG DONT HAVE AN ACCT*/
 .lxsc {
-    color: #ffffff;
-    font-family: "Montserrat";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  color: #ffffff;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*==============================*/
 
+/*HOME SITE DIV*/
+.fumb {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
 /*HOME HEADER*/
 .mhku {
   width: 100%;
-  height: 80px;
-  background-color: #303030;
+  height: 60px;
+  background-color: #333333;
+  border-bottom: 2px solid #880808;
 }
-/*HOME HEADER H1*/
+/*HOME HEADER TITLE*/
 .gzob {
   color: #ffffff;
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 10px;
   font-family: "Montserrat";
   letter-spacing: 1px;
+  font-weight: 300;
+}
+/*HOME ALL CONTENT*/
+.bfyh {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  margin-bottom: 40px;
 }
 /*HOME CATEGORIES DIV*/
 .rnhi {
   width: 250px;
-  padding: 20px;
+  background-color: #2e2e2e;
+  border-right: 2px solid #252525;
+  flex-shrink: 0;
+  overflow-y: auto;
+  height: 100%;
 }
 /*HOME CATEGORIES TITLE*/
 .pmou {
   color: #ffffff;
   text-align: center;
   margin-bottom: 15px;
-  font-family: "Roboto";
   letter-spacing: 2px;
+  margin-top: 15px;
+  font-family: "Montserrat";
 }
-/*HOME CATEGORIES INPUT*/
-.luhn {
-  background-color: #303030;
-  border: none;
-  font-size: 16px;
+/*HOME 1ST BROWSE BUTTON*/
+.hujp {
   color: #ffffff;
+  background-color: #2e2e2e;
+  height: 50px;
   width: 100%;
+  border: none;
+}
+/*HOME 1ST BROWSE HOVER BUTTON*/
+.hujp:hover {
+  background-color: #1e1e1e;
+}
+/*HOME 2ND BROWSE BUTTON*/
+.wkwm {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+/*HOME 2ND BROWSE HOVER BUTTON*/
+.wkwm:hover {
+  background-color: #1e1e1e;
+}
+/*HOME 3RD BROWSE BUTTON*/
+.jjvh {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+/*HOME 3RD BROWSE HOVER BUTTON*/
+.jjvh:hover {
+  background-color: #1e1e1e;
+}
+/*HOME 4TH BROWSE BUTTON*/
+.bobp {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+/*HOME 4TH BROWSE HOVER BUTTON*/
+.bobp:hover {
+  background-color: #1e1e1e;
+}
+/*HOME 5TH BROWSE BUTTON*/
+.khsc {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+/*HOME 5TH BROWSE HOVER BUTTON*/
+.khsc:hover {
+  background-color: #1e1e1e;
+}
+/*HOME 6TH BROWSE BUTTON*/
+.fqxw {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+/*HOME 6TH BROWSE HOVER BUTTON*/
+.fqxw:hover {
+  background-color: #1e1e1e;
+}
+/*HOME 7TH BROWSE BUTTON*/
+.doza {
+  color: #ffffff;
+  background-color: #2e2e2e;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+/*HOME 7TH BROWSE HOVER BUTTON*/
+.doza:hover {
+  background-color: #1e1e1e;
+}
+
+/*==============================*/
+
+/*404 SITE DIV*/
+.xuqp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/*404 TITLE*/
+.rnjb {
+  color: #ffffff;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+/*404 BUTTON*/
+.dieu {
+  font-family: "Montserrat";
+  width: 175px;
   height: 40px;
   border-radius: 20px;
-  display: block;
-  margin-top: 15px;
-  text-align: center;
-}
-/*HOME DISCUSSIONS DIV*/
-.zuho {
-  width: 350px;
-  padding: 20px;
-}
-/*HOME DISCUSSIONS TITLE*/
-.pfyo {
+  border: none;
   color: #ffffff;
-  text-align: center;
-  margin-bottom: 15px;
-  font-family: "Roboto";
-  letter-spacing: 2px;
+  background-color: #303030;
 }
 
-
-
-
-
+/*==============================*/
 
 /*HOME FOOTER DIV*/
 .byfd {
-  background-color: #303030;
+  background-color: #2e2e2e;
   width: 100%;
   height: 40px;
   position: fixed;
@@ -301,4 +409,31 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "Montserrat";
+}
+
+/*==============================*/
+
+/*HOME DISCUSSIONS DIV*/
+.twmd {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  width: 100px;
+  height: 20px;
+  background-color: #2e2e2e;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*HOME DISCUSSIONS TITLE*/
+.wkjg {
+  color: #ffffff;
+  font-family: "Montserrat";
+}
+/*HOME CREATE POST BUTTON*/
+.wcrb {
+  border: none;
+  width: 100px;
+  height: 30px;
 }

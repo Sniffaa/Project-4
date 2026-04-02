@@ -5,16 +5,11 @@ function NotFound() {
   const navigate = useNavigate();
 
   return (
-    <div className='ybjp'>
-      <div className='erfe'>
-        <h1 className='ytow'>404</h1>
-        <p style={{ textAlign: 'center', marginBottom: '20px' }}>
-          Oops! This page doesn't exist.
-        </p>
-        <button className='dmuk' onClick={() => navigate('/')}>
+    <div className='xuqp'>
+      <h1 className='rnjb'>Error 404</h1>
+        <button className='dieu' onClick={() => navigate('/')}>
           Go Home
         </button>
-      </div>
     </div>
   );
 }
