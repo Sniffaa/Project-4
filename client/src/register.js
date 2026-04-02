@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './register.css';
+import './style.css';
 
 function Register() {
   const [username, setUsername] = useState('');
@@ -33,6 +33,7 @@ function Register() {
   };
     
   return (
+  <div className='krst'>
     <div className='tyxw'>
       <h1 className='fqqb'>Register</h1>
       {error && <p style={{ color: 'red' }}>{error}</p>}
@@ -48,6 +49,7 @@ function Register() {
       <button className='vcxh' onClick={doRegister}>Register</button>
       <a className='jhav' href='/login'>Already have an account? Log in</a>
     </div>
+  </div>
   );
 }
 

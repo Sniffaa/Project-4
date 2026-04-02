@@ -1,43 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-body {
-  background-color: #1a2e4a;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 60px;
-}
+
 .bpug {
   color: blue;
   list-style: disc;
   margin-left: 25px;
   font-size: 32px;
   font-family: "Roboto";
-}
-
-.mhku {
-  width: 100%;
-  height: 60px;
-  background-color: #213556;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #374967;
-  z-index: 1000;
-}
-.gzob {
-  color: #ffffff;
-  padding-left: 30px;
-  font-family: "Roboto";
-  letter-spacing: 1px;
 }
 .fa-solid.fa-circle-user {
   color: #ffffff;
@@ -48,18 +15,6 @@ body {
 ::placeholder {
   color: #ffffff;
   font-family: "Roboto";
-}
-.byfd {
-  background-color: #213556;
-  width: 100%;
-  height: 40px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  border-top: 2px solid #374967;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .tcqu {
   color: #ffffff;
@@ -140,9 +95,6 @@ body {
   }
 }
 @media (max-width: 480px) {
-  body {
-    padding-top: 60px; /* fixed header offset */
-  }
 
   .main-layout {
     flex-direction: column;
